@@ -564,7 +564,7 @@ class Music(commands.Cog):
 					
 				await result_race.edit(content = output + ':tada: 경주 종료!\n' + result_str)
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or(""),description='일상뮤직봇')
+bot = commands.Bot(command_prefix=commands.when_mentioned_or(""),description='어느덧뮤직봇')
 
 @bot.event
 async def on_ready():
