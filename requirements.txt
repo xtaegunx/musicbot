@@ -1,3 +1,0 @@
-discord
-discord.py[voice]
-youtube_dl
